@@ -1,6 +1,6 @@
 ‘Stock Market Analysis:
 
-#Stock Analysis
+# Stock Analysis
 
 ## Overview of the project
 
@@ -24,9 +24,9 @@
 
 #### 2. The return was calculated by using the following code: Cells(4,3).Value = (endingPrice/StartingPrice)-1. The results for DQ 2018 information are shown below:
 
-As you can see from the analysis, DQ lost 63% in 2018.
+### As you can see from the analysis, DQ lost 63% in 2018.
 
-DQ Analysis-1.png
+### DQ Analysis-1.png
 
 ### To get a better understanding of the sector and identify other potential investments several green energy stocks were added to the analysis.  The following pseudocode was used:
 
@@ -48,26 +48,26 @@ DQ Analysis-1.png
 
 #### 4. Created a For loop to loop through the arrays (tickers, tickerVolumes, tickerStartingPrices, tickerEndingPrices) to output the ticker, Total Daily Volume, and Return for each unique ticker in the tickerIndex in the data set. Code was re-used from the DQ analysis along with new code being created to automate the year information was pulled for and to ask a question for input of the year to use for the data pull.
 
-Shown below are highlights of the code described above:
+### Shown below are highlights of the code described above:
 
-VBA_Challenge_Refactored_Code.png
+### VBA_Challenge_Refactored_Code.png
 
 ### Results:
 
 #### The results for 2017 show that DQ, ENPH, FLSR, and SEDG all had returns over 100% for the year, with three of the four significantly over 100% returns.  The results also show all but one of the stocks had gains.  The results for 2017 as well as the amount of time it took to run the analysis are shown below:
 
-VBA_Challenge_2017 - Final.png
+### VBA_Challenge_2017 - Final.png
 
 #### The results for 2018 tell a much different story.  In 2018 only two of the stocks had a positive return, ENPH had a return of 81.9% and RUN had an 84.0% return.  DQ at -62.6% had the highest negative return of all the stocks analyzed for 2018.  The results for 2018 as well as amount of time it took to run the analysis are shown below:
 
-VBA_Challenge_2018 - Final.png
+### VBA_Challenge_2018 - Final.png
 
 ## Summary
 
 ### The advantages of refactoring the code made the code run faster.  Since Steve wants to use the code for a much larger set of data the efficiencies gained will be beneficial.  The only disadvantage I can see to refactoring the code is the amount of time spent in completing the work.  Otherwise, I don’t see any.  You can see the difference in performance between the original and refactored code:
 
-2017 Run times.png
+### 2017 Run times.png
 
-2018 Run times.png
+### 2018 Run times.png
 
 ### The pros of refactoring the original VBA script are the current code is more detailed than the original code.  The current code also automated a few pieces of the original code that was specific to a spreadsheet and/or year.  The current code will run for either spreadsheet and year without having to manually make changes to the code.  The refactored code has more flexibility and because it runs faster it can handle larger sets of data.  I haven’t found any cons for refactoring the original script.
