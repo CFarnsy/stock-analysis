@@ -8,8 +8,8 @@
 
 ### In order for Steve to be able to use the code with significantly more data it will need to be adjusted to make it run faster and more efficiently. 
 
- 
-## Results
+
+## Background
 
 ### The first analysis was for DAQO (ticker: DQ), since that is the stock his parents mentioned investing in.  We compiled the year, total daily volume, and return for DAQO by using the following:
 
@@ -28,6 +28,8 @@
 <img width="196" alt="DQ Analysis" src="https://user-images.githubusercontent.com/99366022/157327701-d1454880-2a99-4db6-a5b1-7db3bbe1cd83.png">
 
 ### As you can see from the analysis, DQ lost 63% in 2018.
+
+## Refactored Code
 
 ### To get a better understanding of the sector and identify other potential investments several green energy stocks were added to the analysis.  The following pseudocode was used:
 
@@ -53,13 +55,15 @@
 
 <img width="549" alt="VBA_Challenge_Refactored_Code" src="https://user-images.githubusercontent.com/99366022/157327843-336fefb6-31c2-47e9-bdd5-d275bc808bf4.png">
 
-### Results:
+## 2017 Results:
 
-#### The results for 2017 show that DQ, ENPH, FLSR, and SEDG all had returns over 100% for the year, with three of the four significantly over 100% returns.  The results also show all but one of the stocks had gains.  The results for 2017 as well as the amount of time it took to run the analysis are shown below:
+### The results for 2017 show that DQ, ENPH, FLSR, and SEDG all had returns over 100% for the year, with three of the four significantly over 100% returns.  The results also show all but one of the stocks had gains.  The results for 2017 as well as the amount of time it took to run the analysis are shown below:
 
 <img width="447" alt="VBA_Challenge_2017 - Final" src="https://user-images.githubusercontent.com/99366022/157327930-a12307ae-1934-4978-b758-1bdba29d512c.png">
 
-#### The results for 2018 tell a much different story.  In 2018 only two of the stocks had a positive return, ENPH had a return of 81.9% and RUN had an 84.0% return.  DQ at -62.6% had the highest negative return of all the stocks analyzed for 2018.  The results for 2018 as well as the amount of time it took to run the analysis are shown below:
+## 2018 Results:
+
+### The results for 2018 tell a much different story.  In 2018 only two of the stocks had a positive return, ENPH had a return of 81.9% and RUN had an 84.0% return.  DQ at -62.6% had the highest negative return of all the stocks analyzed for 2018.  The results for 2018 as well as the amount of time it took to run the analysis are shown below:
 
 <img width="438" alt="VBA_Challenge_2018 - Final" src="https://user-images.githubusercontent.com/99366022/157327980-aaa4e8bb-b1a5-4c01-a9c8-affa70dcb385.png">
 
